@@ -1,0 +1,21 @@
+<div class="card bg-base-100 w-96 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="images/triangle.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Triangel</h2>
+                        <p>Area (A) = 0.5 x b x h</p>
+                        <div>
+                            <input id="triangle-base" type="text" class="w-24" placeholder="b">
+                            <span>cm</span>
+                            <input id="triangle-hight" type="text" class="w-24" placeholder="h">
+                            <span>cm</span>
+                            <div>
+                                <p>Aria: <span id="shoeMe"> </span> <span>cm<sup>2</sup></span></p>
+                            </div>
+                        </div>
+                        <div class="card-actions">
+                            <button class="btn btn-primary" onclick="calculate()">Calculat</button>
+                        </div>
+                    </div>
+                </div>
